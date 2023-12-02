@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String  metodai</title>
+    <style>
+        body {
+            background: black;
+            color: hotpink;
+        }
+
+        input {
+            background: hotpink;
+            color: black;
+            border: none;
+            height: 20px;
+        }
+
+        button {
+            background: hotpink;
+            color: black;
+            border: none;
+            height: 20px;
+            margin-left: 10px;
+        }
+
+        input:hover,
+        button:hover {
+            cursor: pointer;
+            background: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- 1 UŽDUOTIS -->
+    <h1>1 UŽDUOTIS</h1>
+    <input type="text" id="name" name="name" placeholder="Vardas">
+    <br><br>
+    <input type="number" id="number" name="number" placeholder="Skaičius">
+    <button onclick="showName()">Spausk</button>
+    <div id="result"></div>
+    <!-- 2 UŽDUOTIS -->
+    <h1>2 UŽDUOTIS</h1>
+    <input type="text" id="firstName" name="firstName" placeholder="Vardas">
+    <button onclick="nameLength()">Spausk</button>
+
+    <!-- 3 UŽDUOTIS -->
+    
+    <h1>3 UŽDUOTIS</h1>
+    <input type="text" id="fullName" name="fullName" placeholder="Vardas Pavardė">
+    <button onclick="splitFullName()">Spausk</button>
+    <div id="answer"></div>
+    <script src="script.js"></script>
+</body>
+</html>
